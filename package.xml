@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>jetbot_ros</name>
-  <version>0.0.0</version>
-  <description>ROS nodes for JetBot</description>
-  <maintainer email="dustinf@nvidia.com">Dustin Franklin</maintainer>
+  <name>rosbot</name>
+  <version>0.1.0</version>
+  <description>Jetbot Functionallity in ROS</description>
+  <maintainer email="michael.a.lundsveen@hiof.no">Michael A. Lundsveen</maintainer>
   <license>MIT</license>
 
   <test_depend>ament_copyright</test_depend>

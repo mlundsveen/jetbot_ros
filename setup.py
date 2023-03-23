@@ -20,7 +20,7 @@ def generate_data_files(dirs=['launch', 'gazebo/worlds', 'gazebo/models']):
     
 setup(
     name=package_name,
-    version='0.0.0',
+    version='0.1.0',
     packages=find_packages(exclude=['test']),
     data_files=[
         ('share/ament_index/resource_index/packages',
@@ -29,9 +29,9 @@ setup(
     ] + generate_data_files(),
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='Dustin Franklin',
-    maintainer_email='dustinf@nvidia.com',
-    description='ROS nodes for JetBot',
+    maintainer='Michael A. Lundsveen',
+    maintainer_email='michael.a.lundsveen@hiof.no',
+    description='Jetbot functionality in ROS',
     license='MIT',
     tests_require=['pytest'],
     entry_points={
